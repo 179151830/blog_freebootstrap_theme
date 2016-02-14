@@ -1,0 +1,20 @@
+<template name="post_list">
+    <!-- list of recent posts -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!--list of posts via for each post_preview-->
+                {{#each posts}}
+                    {{> post_preview}}
+                {{/each}}
+                <!--&lt;!&ndash; Pager for older posts&ndash;&gt;-->
+                <!--<ul class="pager">-->
+                    <!--<li class="next">-->
+                        <!--<a href="#">Older Posts &rarr;</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            </div>
+        </div>
+    </div>
+
+</template>

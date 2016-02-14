@@ -1,0 +1,8 @@
+<template name="comments">
+    <div class="container">
+        {{#each comments}}
+            {{>comment_page}}
+        {{/each}}
+    </div>
+    {{> comment_form}}
+</template>
