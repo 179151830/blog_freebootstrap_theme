@@ -1,0 +1,27 @@
+<template name="new_post_form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div id="new_post_form">
+                    <form class="js-save-new-post-form">
+                        <div class="form-group">
+                            <label for="post_title">Title</label>
+                            <input type="text" class="form-control" id="post_title" placeholder="POST_TITLE">
+                        </div>
+                        <div class="form-group">
+                            <label for="post_sub_title">Sub Title</label>
+                            <input type="text" class="form-control" id="post_sub_title" placeholder="POST_SUB_TITLE">
+                        </div>
+                        <div class="form-group">
+                            <label for="post_content">Content</label>
+                            {{> editor}}
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="reset" class="btn btn-warning">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

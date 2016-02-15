@@ -9,10 +9,11 @@ Template.comment_form.events({
             console.log(user);
             var myCom = event.target.comment.value;
             console.log(myCom);
+            var timestamp = new Date();
 
             //  put your comment saving code in here!
             //upsert the collection
-            Posts.update({_id:id},{$push:{comments: {com_user: user, com_detail: myCom}}});
+            Posts.update({_id:id},{$push:{comments: {com_user: user, com_detail: myCom, com_date: timestamp}}});
 
             //event.target.url.clear();
             //event.target.clear();

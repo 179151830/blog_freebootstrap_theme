@@ -1,8 +1,12 @@
 <template name="comments">
     <div class="container">
-        {{#each comments}}
-            {{>comment_page}}
-        {{/each}}
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {{#each comments}}
+                    {{>comment_page}}
+                {{/each}}
+            </div>
+        </div>
     </div>
     {{> comment_form}}
 </template>

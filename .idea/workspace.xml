@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d599ab02-d33f-4b2d-873d-90b1885f5be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/comment_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/comment_form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/comment_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/post_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/post_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/post_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/post_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/post_preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main_page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/new_post_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/new_post_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/new_post_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/css/clean-blog.css" afterPath="$PROJECT_DIR$/client/css/clean-blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/layout.html" afterPath="$PROJECT_DIR$/client/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/comment_form.html" afterPath="$PROJECT_DIR$/client/comment_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/comment_form.js" afterPath="$PROJECT_DIR$/client/comment_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/comment_page.html" afterPath="$PROJECT_DIR$/client/comment_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/comments.html" afterPath="$PROJECT_DIR$/client/comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/home.html" afterPath="$PROJECT_DIR$/client/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/navbar.html" afterPath="$PROJECT_DIR$/client/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections.js" afterPath="$PROJECT_DIR$/lib/collections.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/post_detail.html" afterPath="$PROJECT_DIR$/client/post_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/init_posts.js" afterPath="$PROJECT_DIR$/server/init_posts.js" />
     </list>
     <ignored path="blog_freebootstrap_theme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/server/init_posts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <caret line="41" column="85" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="85" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -55,34 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/comments.html">
+      <file leaf-file-name="new_post_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/new_post_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.967742">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state vertical-scroll-proportion="-3.548387">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_post_form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/new_post_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
-                <marker date="1455428803652" expanded="true" signature="25:174" placeholder="..." />
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/comment_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="71" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/main_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -90,18 +78,18 @@
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/navbar.js">
+      <file leaf-file-name="comment_form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/comment_form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="26" column="3" selection-start-line="3" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -109,14 +97,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment_form.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/comment_form.js">
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6991525">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.6310273">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/home.html">
+      <file leaf-file-name="post_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/post_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -147,10 +133,20 @@
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_post_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/new_post_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.8387096">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,26 +167,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/init_posts.js" />
-        <option value="$PROJECT_DIR$/client/home.html" />
         <option value="$PROJECT_DIR$/client/header_background.html" />
         <option value="$PROJECT_DIR$/client/layout.html" />
         <option value="$PROJECT_DIR$/client/footer.html" />
         <option value="$PROJECT_DIR$/client/post_list.html" />
         <option value="$PROJECT_DIR$/client/post_list.js" />
-        <option value="$PROJECT_DIR$/client/main_page.html" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/post_preview.html" />
-        <option value="$PROJECT_DIR$/client/post_detail.html" />
         <option value="$PROJECT_DIR$/client/css/clean-blog.css" />
-        <option value="$PROJECT_DIR$/client/comment_page.html" />
-        <option value="$PROJECT_DIR$/client/comment_form.html" />
-        <option value="$PROJECT_DIR$/client/comments.html" />
         <option value="$PROJECT_DIR$/client/post_page.html" />
-        <option value="$PROJECT_DIR$/client/navbar.html" />
         <option value="$PROJECT_DIR$/lib/collections.js" />
         <option value="$PROJECT_DIR$/client/navbar.js" />
         <option value="$PROJECT_DIR$/client/comment_form.js" />
+        <option value="$PROJECT_DIR$/client/comment_page.html" />
+        <option value="$PROJECT_DIR$/client/comments.html" />
+        <option value="$PROJECT_DIR$/client/comment_form.html" />
+        <option value="$PROJECT_DIR$/client/post_detail.html" />
+        <option value="$PROJECT_DIR$/client/editor.html" />
+        <option value="$PROJECT_DIR$/client/main_page.js" />
+        <option value="$PROJECT_DIR$/client/editor.js" />
+        <option value="$PROJECT_DIR$/client/home.html" />
+        <option value="$PROJECT_DIR$/client/main_page.html" />
+        <option value="$PROJECT_DIR$/client/new_post_page.html" />
+        <option value="$PROJECT_DIR$/client/new_post_form.html" />
+        <option value="$PROJECT_DIR$/server/init_posts.js" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/navbar.html" />
+        <option value="$PROJECT_DIR$/client/new_post_form.js" />
       </list>
     </option>
   </component>
@@ -230,8 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,6 +471,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/comment_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/init_posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -523,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,58 +735,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9846153">
           <caret line="397" column="1" selection-start-line="397" selection-start-column="1" selection-end-line="397" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/comment_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state vertical-scroll-proportion="-5.677419">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
-            <marker date="1455428620684" expanded="true" signature="29:162" placeholder="..." />
-            <marker date="1455428620684" expanded="true" signature="38:150" placeholder="..." />
-            <marker date="1455428620684" expanded="true" signature="100:140" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/post_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <marker date="1455427526391" expanded="true" signature="28:1019" placeholder="..." />
-            <marker date="1455427526391" expanded="true" signature="90:723" placeholder="..." />
-            <marker date="1455427526391" expanded="true" signature="336:404" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/post_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1290324">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <marker date="1455428803658" expanded="true" signature="26:124" placeholder="..." />
+            <marker date="1455506094967" expanded="true" signature="53:252" placeholder="..." />
+            <marker date="1455506094967" expanded="true" signature="86:241" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state vertical-scroll-proportion="-2.1290324">
+          <caret line="3" column="76" selection-start-line="2" selection-start-column="8" selection-end-line="3" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4193548">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <marker date="1455428803652" expanded="true" signature="25:174" placeholder="..." />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -758,20 +809,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/init_posts.js">
+    <entry file="file://$PROJECT_DIR$/client/comment_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/client/post_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/comment_form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <caret line="26" column="3" selection-start-line="3" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -788,39 +845,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/navbar.js">
+    <entry file="file://$PROJECT_DIR$/server/init_posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <caret line="41" column="85" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="85" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/comment_form.html">
+    <entry file="file://$PROJECT_DIR$/client/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="71" />
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/comment_form.js">
+    <entry file="file://$PROJECT_DIR$/client/new_post_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6991525">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state vertical-scroll-proportion="-2.8387096">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/new_post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/new_post_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6310273">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,6 @@ Meteor.startup(function () {
                 title: "post one",
                 body: "body of post one",
                 user: "kieky",
-                permalink: "post1_kieky",
                 tags : [
                     "Meteor",
                     "Languages"
@@ -27,7 +26,6 @@ Meteor.startup(function () {
                 title: "post two",
                 body: "body of post two",
                 user: "kieky",
-                permalink: "post2_kieky",
                 tags : [
                     "Meteor"
                 ]
@@ -41,7 +39,7 @@ Meteor.startup(function () {
         });
         _.each(blogs, function(blog) {
             var blog_id = Posts.insert({title: blog.title,
-                body: blog.body, user: blog.user, permalink: blog.permalink, tags: blog.tags, date: timestamp});
+                body: blog.body, user: blog.user, tags: blog.tags, date: timestamp});
         });
     }
 });

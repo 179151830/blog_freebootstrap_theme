@@ -1,10 +1,11 @@
 <template name="comment_page">
-    <li>
-        <p>
-            {{com_user}}
-        </p>
-        <p>
+    <div class="media">
+        <div class="media-body">
+            <h4 class="media-heading">{{com_user}}
+                <small>{{com_date}}</small>
+            </h4>
             {{com_detail}}
-        </p>
-    </li>
+        </div>
+    </div>
 </template>
+
