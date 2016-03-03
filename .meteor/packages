@@ -23,3 +23,7 @@ iron:router
 accounts-ui
 accounts-password
 summernote:summernote
+cfs:standard-packages
+cfs:gridfs
+cfs:filesystem
+cfs:s3
