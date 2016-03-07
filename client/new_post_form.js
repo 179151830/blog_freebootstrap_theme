@@ -10,10 +10,19 @@ Template.new_post_form.events({
             var sub_title = event.target.post_sub_title.value;
             var code = $('#summernote').summernote('code');
             var timestamp = new Date();
-
-            var blog_id = Posts.insert({title: title, subtitle: sub_title,
-                body: code, user: user, date: timestamp});
-            Router.go('/post/' + blog_id);
+            if(title.length == 0) {
+                alert("Please add title!");
+            }
+            else {
+                if(code.length == 0) {
+                    alert("Please add your post!");
+                }
+                else {
+                    var blog_id = Posts.insert({title: title, subtitle: sub_title,
+                        body: code, user: user, date: timestamp});
+                    Router.go('/post/' + blog_id);
+                }
+            }
         }
         else {
             alert("Please log on first!");

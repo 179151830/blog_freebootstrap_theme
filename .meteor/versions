@@ -35,6 +35,7 @@ cfs:tempstore@0.1.5
 cfs:upload-http@0.0.20
 cfs:worker@0.1.4
 check@1.1.0
+chrismbeckett:toastr@2.1.2_1
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2

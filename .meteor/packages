@@ -27,3 +27,4 @@ cfs:standard-packages
 cfs:gridfs
 cfs:filesystem
 cfs:s3
+chrismbeckett:toastr
