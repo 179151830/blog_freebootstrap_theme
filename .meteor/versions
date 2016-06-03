@@ -49,6 +49,7 @@ ejson@1.0.7
 email@1.0.8
 es5-shim@4.1.14
 fastclick@1.0.7
+fortawesome:fontawesome@4.2.0_2
 geojson-utils@1.0.4
 hot-code-push@1.0.0
 html-tools@1.0.5
@@ -64,6 +65,7 @@ iron:location@1.0.11
 iron:middleware-stack@1.0.11
 iron:router@1.0.12
 iron:url@1.0.11
+joshowens:shareit@1.0.2
 jquery@1.11.4
 launch-screen@1.0.4
 less@2.5.1
@@ -97,6 +99,7 @@ session@1.1.1
 sha@1.0.4
 spacebars@1.0.7
 spacebars-compiler@1.0.7
+spiderable@1.0.9
 srp@1.0.4
 standard-minifiers@1.0.2
 summernote:summernote@0.8.0
